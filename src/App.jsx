@@ -509,7 +509,7 @@ function LeftSidebar({ view, go, mobileOpen, closeMobile, onRegister }) {
 
 function TopBar({ title, onSearch, onBell, notifCount, onMenu, onBack, showBack }) {
   const [copiedCA, setCopiedCA] = useState(false);
-  const CA_PLACEHOLDER = "gaegEfsdgsegsefsdsege";
+  const CA_PLACEHOLDER = "0x4729fFc9E7D17ca122fe5667239b8cc88F0c8E3c";
 
   const copyCA = async () => {
     try {
